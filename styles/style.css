@@ -1,0 +1,71 @@
+.header {
+    
+    text-align: center;
+    padding:5%;
+}
+
+body {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form-container{
+    background-color: rgb(221, 221, 206, 0.5);
+    color: white;
+    background-image: url('../images/pablo-merchan-montes-hyIE90CN6b0-unsplash.jpg');
+    width: 60vw;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    
+}
+
+.container {
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group {
+    opacity: 0.9;
+}
+
+@media  only screen and (max-width: 600px){
+    .form-container {
+        width: 90vw;
+    }
+}
+
+.container-div {
+    background-color: rgb(187, 197, 187);
+    background-image: url('../images/eiliv-sonas-aceron-mwbjyRUTlIQ-unsplash.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 40px;
+   
+    
+}
+
+button {
+    width: 98%;
+    margin-left: 20px;
+
+}
+
+.comments {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin:0 auto;
+}

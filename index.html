@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Survey form</title>
+    <link rel='stylesheet' href='./styles/style.css' >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container-fluid container-div">
+        <div class="form-container">
+            <div class="header ">
+                <h1 id='title'>Burger Survey Form</h1>
+                <h3>What is your favourite burger</h3>
+                <p id='description'>Please fill out the Survey form</p>
+            </div>
+                <div class='container'>
+                    <form id="survey-form">
+                        <div class="form-group">
+                            <label id="name-label" for='name'>Name:</label>
+                            <input  class="form-control" type='text' id='name' required placeholder="Enter Name" />
+                            
+                            <label id="email-label" for='email'>Email:</label>
+                            <input  class="form-control" type='email' id='email' required placeholder="Enter Email" />
+                            
+                            <label id="number-label" for='number'>Age:</label>
+                            <input min='12' max='80' class="form-control" type='number' id='number' placeholder="Enter Age" />
+        
+                            <label for="burgerType">Choose Your Favourite Burger:</label>
+                            <select id="dropdown" class="form-control" id="burgerType" name="cars">
+                                <option value="volvo">Beef</option>
+                                <option value="saab">Chicken</option>
+                                <option value="fiat">Vegeterian</option>
+                                <option value="audi">None</option>
+                            </select>
+                            <h6>Would You Recommend the Burgers to your Friends</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="strongly" value='yes' >
+                                <label for='strongly'>Hell Yeah</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="sure" value='yes' >
+                                <label for='sure'>For Sure</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="maybe" value='maybe' >
+                                <label for='maybe'>Maybe</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="nah" value='no' >
+                                <label for='nah'>Nah burger sucks</label>
+                            </div>  
+        
+                            <label for="side">Choose Your Favourite side:</label>
+                            <select class="form-control" id="side" name="cars">
+                                <option value="volvo">Fries</option>
+                                <option value="saab">Wedges</option>
+                                <option value="fiat">Roasted potato</option>
+                                <option value="audi">None</option>
+                            </select>
+        
+                            <h6>What other meals would you like added</h6>
+        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="pizza" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Pizza <i class="fas fa-pizza-slice"></i>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="steak" id="defaultCheck2" >
+                                <label class="form-check-label" for="defaultCheck2">
+                                 Steak 
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="vnoodles" id="defaultCheck2" >
+                                <label class="form-check-label" for="defaultCheck2">
+                                  Vegetarian Noodles
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="salad" id="defaultCheck2" >
+                                <label class="form-check-label" for="defaultCheck2">
+                                  Salad
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="tripe" id="defaultCheck2" >
+                                <label class="form-check-label" for="defaultCheck2">
+                                  African Tripe
+                                </label>
+                              </div>  
+                        </div>  
+                        <div class="comments">
+                            <h6>Any Additional Comments</h6>
+                            <textarea>
+
+                            </textarea>
+                        </div>
+                        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+  
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
